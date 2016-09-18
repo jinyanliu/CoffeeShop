@@ -1,60 +1,60 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">CoffeeShop</string>
 
-    <!-- Name Hint for EditText. [CHAR LIMIT=NONE] --> 
+    <!-- Name Hint for EditText. [CHAR LIMIT=NONE] -->
     <string name="user_name">Please enter your name</string>
-    <!-- Header text for the list of toppings. [CHAR LIMIT=20] --> 
-    <string name="toppings">Toppings</string> 
-    <!-- One of the toppings - Whipped Cream. [CHAR LIMIT=20] --> 
+    <!-- Header text for the list of toppings. [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+    <!-- One of the toppings - Whipped Cream. [CHAR LIMIT=20] -->
     <string name="whipped_cream">Whipped Cream</string>
-    <!-- One of the toppings - Chocolate. [CHAR LIMIT=20] --> 
-    <string name="chocolate">Chocolate</string> 
-    <!-- Header text for quantity. [CHAR LIMIT=20] --> 
-    <string name="quantity">Quantity</string> 
-    <!-- Text on the Order button. [CHAR LIMIT=20] --> 
+    <!-- One of the toppings - Chocolate. [CHAR LIMIT=20] -->
+    <string name="chocolate">Chocolate</string>
+    <!-- Header text for quantity. [CHAR LIMIT=20] -->
+    <string name="quantity">Quantity</string>
+    <!-- Text on the Order button. [CHAR LIMIT=20] -->
     <string name="order_button">Order</string>
 
-    <!-- 
-    Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the user's name. [CHAR LIMIT=NONE] 
-    --> 
+    <!--
+    Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
     <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
-    <!-- 
-    Add whipped cream message for the order summary. It will be shown in the format of "Add whipped cream? True." where True is the user selection. [CHAR LIMIT=NONE] 
-    --> 
+    <!--
+    Add whipped cream message for the order summary. It will be shown in the format of "Add whipped cream? True." where True is the user selection. [CHAR LIMIT=NONE]
+    -->
     <string name="add_whipped_cream">Add Whipped cream? <xliff:g example="true" id="hasWhippedCream">%s</xliff:g></string>
-     
-    <!-- 
-    Add chocolate message for the order summary. It will be shown in the format of "Add Chocolate? True." where True is the user selection. [CHAR LIMIT=NONE] 
-    --> 
+
+    <!--
+    Add chocolate message for the order summary. It will be shown in the format of "Add Chocolate? True." where True is the user selection. [CHAR LIMIT=NONE]
+    -->
     <string name="add_chocolate">Add Chocolate? <xliff:g example="true" id="hasChocolate">%s</xliff:g></string>
-    <!-- 
-    Quantity message for the order summary. It will be shown in the format of "Quantity: 7" where 7 is the quantity decided by the user. [CHAR LIMIT=NONE] 
-    --> 
+    <!--
+    Quantity message for the order summary. It will be shown in the format of "Quantity: 7" where 7 is the quantity decided by the user. [CHAR LIMIT=NONE]
+    -->
     <string name="order_summary_quantity">Quantity: <xliff:g example="7" id="quantity">%d</xliff:g></string>
-    <!-- 
-    Total price message for the order summary. It will be shown in the format of "Total: $56" where 56 is the total price of the user's order. [CHAR LIMIT=NONE] 
-    --> 
+    <!--
+    Total price message for the order summary. It will be shown in the format of "Total: $56" where 56 is the total price of the user's order. [CHAR LIMIT=NONE]
+    -->
     <string name="total">Total: $<xliff:g example="56" id="totalPrice">%d</xliff:g></string>
-    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] --> 
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
     <string name="thank_you">Thank you!</string>
 
-    <!-- 
-    Name for the email subject. It will be shown in the format of "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE] 
-    --> 
+    <!--
+    Name for the email subject. It will be shown in the format of "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
     <string name="email_subject">Just Java order for <xliff:g example="Amy" id="name">%s</xliff:g></string>
     <!--
     Error message for ordering more than 100 cups. [CHAR LIMIT=NONE]
-    --> 
+    -->
     <string name="coffee_limit_up">You cannot have more than 100 coffees</string>
     <!--
     Error message for ordering less than 1 cup. [CHAR LIMIT=NONE]
-    --> 
-    <string name="coffee_limit_down">You cannot have less than 1 coffee</string> 
+    -->
+    <string name="coffee_limit_down">You cannot have less than 1 coffee</string>
 
-    <!-- True. [CHAR LIMIT=NONE] --> 
+    <!-- True. [CHAR LIMIT=NONE] -->
     <string name="add_true">Yes</string>
 
-    <!-- False. [CHAR LIMIT=NONE] --> 
+    <!-- False. [CHAR LIMIT=NONE] -->
     <string name="add_false">No</string>
 
 </resources>

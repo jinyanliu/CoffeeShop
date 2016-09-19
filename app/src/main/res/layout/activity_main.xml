@@ -27,9 +27,7 @@
             android:inputType="textCapWords" />
 
         <TextView
-            style="@style/CustomText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
             android:text="@string/toppings" />
 
@@ -52,9 +50,7 @@
             android:textSize="16sp" />
 
         <TextView
-            style="@style/CustomText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
             android:text="@string/quantity" />
 

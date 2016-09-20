@@ -41,7 +41,7 @@
     <!--
     Name for the email subject. It will be shown in the format of "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
     -->
-    <string name="email_subject">Just Java order for <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="email_subject">CoffeeShop order for <xliff:g example="Amy" id="name">%s</xliff:g></string>
     <!--
     Error message for ordering more than 100 cups. [CHAR LIMIT=NONE]
     -->

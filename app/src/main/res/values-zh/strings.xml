@@ -15,7 +15,7 @@
     <string name="add_chocolate">需要巧克力吗? <xliff:g example="true" id="hasChocolate">%s</xliff:g></string>
     <string name="order_summary_quantity">数量: <xliff:g example="7" id="quantity">%d</xliff:g></string>
     <string name="total">总价: <xliff:g example="56" id="totalPrice">%d</xliff:g>元</string>
-    <string name="email_subject">Just Java 为<xliff:g example="艾米" id="name">%s</xliff:g>下单</string>
+    <string name="email_subject">咖啡店为<xliff:g example="艾米" id="name">%s</xliff:g>下单</string>
     <string name="add_true">需要</string> 
     <string name="add_false">不需要</string>
 </resources>
